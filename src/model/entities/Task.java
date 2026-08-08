@@ -17,10 +17,11 @@ public abstract class Task {
     private TaskStatus status;
     private Category category;
 
-    public Task(Integer id, String description, LocalDate dueDate, Priority priority, TaskStatus status, Category category) {
-        this.id = id;
-        this.description = description;
-        this.dueDate = dueDate;
+    public Task(Integer id, String title ,String description, LocalDate dueDate, Priority priority, TaskStatus status, Category category) {
+        setId(id);
+        setTitle(title);
+        setDescription(description);
+        setDueDate(dueDate);
         this.priority = priority;
         this.status = status;
         this.category = category;
