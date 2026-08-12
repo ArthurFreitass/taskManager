@@ -4,11 +4,12 @@ import model.entities.enums.Priority;
 import model.entities.enums.TaskStatus;
 import model.exceptions.DateException;
 import model.exceptions.DomainException;
+import persistance.Exportable;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
-public abstract class Task {
+public abstract class Task implements Exportable {
 
     private final Integer id;
     private String title;
@@ -111,5 +112,10 @@ public abstract class Task {
     @Override
     public String toString() {
         return "ID : " + id + " Title : " + title + "\nDescription:\n" + description;
+    }
+
+    @Override
+    public String toFileFormat() {
+        return "";
     }
 }
