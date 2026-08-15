@@ -1,18 +1,18 @@
 package model.entities;
 
 import model.exceptions.DomainException;
-import repository.Repository;
+import persistance.Exportable;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class User {
+public class User implements Exportable {
 
     private String name;
     private List<Task> tasksList;
 
     public User(String name) {
-        this.name = name;
+        setName(name);
         this.tasksList = new ArrayList<>();
     }
 
@@ -54,5 +54,18 @@ public class User {
     @Override
     public String toString() {
         return name;
+    }
+
+    private String allTasks() {
+        String tasks = "";
+        for (Task task : getTasksList()) {
+            tasks += task + "\n";
+        }
+        return tasks;
+    }
+
+    @Override
+    public String toFileFormat() {
+        return "USER;" + name;
     }
 }

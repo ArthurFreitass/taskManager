@@ -7,6 +7,7 @@ import model.exceptions.DomainException;
 import persistance.Exportable;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public abstract class Task implements Exportable {
@@ -111,11 +112,11 @@ public abstract class Task implements Exportable {
 
     @Override
     public String toString() {
-        return "ID : " + id + " Title : " + title + "\nDescription:\n" + description;
+        return "ID : " + id + " Title : " + title + " Description: " + description;
     }
 
     @Override
     public String toFileFormat() {
-        return "";
+        return "TASK;" + id + ";"+ title + ";" + description + ";" + dueDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + ";" + priority + ";" + status + ";"+ category.getName();
     }
 }
