@@ -1,8 +1,0 @@
-USER;Arthur
-USER;Lucas
-USER;Maria
-TASK;1;Study Java;Review Collections and Maps;17/08/2026;HIGH;PENDING;Programming;SIMPLE
-TASK;2;Practice English;Watch one hour of English content;16/08/2026;MEDIUM;PENDING;English;SIMPLE
-TASK;3;Finish Java project;Implement persistence and repositories;20/08/2026;HIGH;PENDING;Programming;SIMPLE
-TASK;4;Read book;Read thirty pages;18/08/2026;LOW;PENDING;Personal;SIMPLE
-TASK;5;Study SQL;Practice SELECT, WHERE and JOIN;19/08/2026;MEDIUM;PENDING;Programming;SIMPLE
