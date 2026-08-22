@@ -1099,14 +1099,10 @@ Planned improvements include:
 * [ ] Support overdue tasks during loading
 * [ ] Persist complete category information
 * [ ] Implement real recurring task behavior
-* [ ] Refactor the repository interface to `Repository<T, ID>`
 * [ ] Prevent repositories from being exposed to the UI
 * [ ] Move task editing logic into `TaskService`
-* [ ] Improve the `equals()` and `hashCode()` identity strategy
-* [ ] Replace `isEmpty()` validation with `isBlank()` where appropriate
 * [ ] Improve the exception hierarchy
 * [ ] Add Maven
-* [ ] Replace the absolute persistence path with a relative or configurable path
 * [ ] Add task filtering
 * [ ] Add task sorting
 * [ ] Add search by category
