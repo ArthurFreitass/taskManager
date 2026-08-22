@@ -1091,28 +1091,16 @@ JUnit 5 is planned as one of the next improvements.
 
 Planned improvements include:
 
-* [ ] Add JUnit 5
-* [ ] Add automated tests for `UserService`
-* [ ] Add automated tests for `TaskService`
-* [ ] Add persistence tests
-* [ ] Restore persisted task IDs correctly
-* [ ] Support overdue tasks during loading
-* [ ] Persist complete category information
-* [ ] Implement real recurring task behavior
-* [ ] Prevent repositories from being exposed to the UI
-* [ ] Move task editing logic into `TaskService`
-* [ ] Improve the exception hierarchy
-* [ ] Add Maven
-* [ ] Add task filtering
-* [ ] Add task sorting
-* [ ] Add search by category
-* [ ] Add filtering by priority
-* [ ] Add filtering by status
-* [ ] Add overdue task detection
-* [ ] Add JDBC
-* [ ] Integrate MySQL
-* [ ] Replace in-memory repositories with database repositories
-* [ ] Eventually create a REST API using Spring Boot
+## 🚀 Future Improvements
+
+- [ ] Add automated tests with JUnit 5
+- [ ] Refactor repositories to `Repository<T, ID>`
+- [ ] Fix task ID restoration during file loading
+- [ ] Improve separation between UI, Service and Repository layers
+- [ ] Improve recurring task behavior
+- [ ] Add Maven
+- [ ] Add JDBC and MySQL persistence
+- [ ] Create a REST API with Spring Boot
 
 ---
 
