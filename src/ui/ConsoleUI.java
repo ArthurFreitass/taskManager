@@ -99,7 +99,7 @@ public class ConsoleUI {
         String name = sc.nextLine();
 
         userService.addUser(name);
-        System.out.println("Usuário " + name + " adicionado com sucesso!");
+        System.out.println("\nUsuário " + name + " adicionado com sucesso!");
     }
 
     private User selectUser() {

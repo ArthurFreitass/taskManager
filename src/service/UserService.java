@@ -35,7 +35,6 @@ public class UserService {
         }
 
         userRepository.addItem(new User(name));
-        // Persists in file
     }
 
     public User findUser(String name) {
