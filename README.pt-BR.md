@@ -1188,28 +1188,16 @@ A implementação de testes com **JUnit 5** é uma das principais próximas etap
 
 # 🚀 Próximas Melhorias
 
-* [ ] Adicionar JUnit 5
-* [ ] Criar testes para `UserService`
-* [ ] Criar testes para `TaskService`
-* [ ] Criar testes de persistência
-* [ ] Restaurar corretamente os IDs salvos
-* [ ] Permitir o carregamento de tarefas atrasadas
-* [ ] Persistir completamente os dados de `Category`
-* [ ] Implementar comportamento real de recorrência
-* [ ] Remover exposição dos repositories para a UI
-* [ ] Mover a edição de tarefas para `TaskService`
-* [ ] Melhorar a hierarquia das exceções
-* [ ] Adicionar Maven
-* [ ] Criar filtros de tarefas
-* [ ] Criar ordenação de tarefas
-* [ ] Buscar tarefas por categoria
-* [ ] Filtrar por prioridade
-* [ ] Filtrar por status
-* [ ] Identificar tarefas atrasadas
-* [ ] Adicionar JDBC
-* [ ] Integrar MySQL
-* [ ] Criar repositories baseados em banco de dados
-* [ ] Futuramente desenvolver uma API REST com Spring Boot
+## 🚀 Próximas Melhorias
+
+- [ ] Adicionar testes automatizados com JUnit 5
+- [ ] Refatorar repositories para `Repository<T, ID>`
+- [ ] Corrigir a restauração dos IDs durante o carregamento
+- [ ] Melhorar a separação entre UI, Service e Repository
+- [ ] Implementar comportamento real para tarefas recorrentes
+- [ ] Adicionar Maven
+- [ ] Adicionar persistência com JDBC e MySQL
+- [ ] Criar futuramente uma API REST com Spring Boot
 
 ---
 
