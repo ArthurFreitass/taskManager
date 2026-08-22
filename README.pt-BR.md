@@ -1196,14 +1196,10 @@ A implementação de testes com **JUnit 5** é uma das principais próximas etap
 * [ ] Permitir o carregamento de tarefas atrasadas
 * [ ] Persistir completamente os dados de `Category`
 * [ ] Implementar comportamento real de recorrência
-* [ ] Refatorar para `Repository<T, ID>`
 * [ ] Remover exposição dos repositories para a UI
 * [ ] Mover a edição de tarefas para `TaskService`
-* [ ] Melhorar a estratégia de `equals()` e `hashCode()`
-* [ ] Utilizar `isBlank()` onde for apropriado
 * [ ] Melhorar a hierarquia das exceções
 * [ ] Adicionar Maven
-* [ ] Substituir o caminho absoluto por um caminho relativo/configurável
 * [ ] Criar filtros de tarefas
 * [ ] Criar ordenação de tarefas
 * [ ] Buscar tarefas por categoria
