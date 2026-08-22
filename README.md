@@ -1,4 +1,5 @@
-# Task Manager — Java
+# Task Manager — Java 
+[🇧🇷 Versão em Português](README.pt-BR.md)
 
 A console-based **Task Manager application built with Java Core**.
 
